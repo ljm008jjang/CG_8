@@ -75,7 +75,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main_Phong_Shader.cpp" />
+    <ClCompile Include="Q1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EmptyViewer\EmptyViewer.vcxproj">
