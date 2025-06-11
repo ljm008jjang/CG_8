@@ -1,20 +1,25 @@
 Compilation:
-Set View, Model, Projection Matrix.
-Set Unifrom values to Shader
-![image](https://github.com/user-attachments/assets/f4429928-f568-484b-bd7a-a90f156c1aef)
+Q1
+Use immediate mode
 
-Phong.vert shader code
-get model, view, projection matrix and set result position
-![image](https://github.com/user-attachments/assets/8d5bee8d-6f7a-4de4-bfb6-229e3c55552d)
+![image](https://github.com/user-attachments/assets/bc2c91b5-4f0d-40c2-91ff-3e7802010185)
 
 
-Phong.frag shader code.
-get cam, mat, light and calc PhongShading
-![image](https://github.com/user-attachments/assets/0561e1f3-4a40-491f-9fad-ff720ea19cc4)
+Q2
+use vertex arrays
 
-In sphere_scnene, change type of variables and refactor codes.
-add gNormalBuffer and gColorBuffer variable.
-![image](https://github.com/user-attachments/assets/92e0db25-aa97-49a3-972f-9801b77206ec)
+![image](https://github.com/user-attachments/assets/0efc7bc2-7048-4a1f-876a-76f03ad17a42)
+
+phong.vert
+
+![image](https://github.com/user-attachments/assets/895c8118-c6d1-4f9c-8800-147740efe644)
+
+phong.frag
+
+![image](https://github.com/user-attachments/assets/5467ee17-40e9-4ea2-af16-fb919bc8a75b)
+
+
+
 
 
 
@@ -27,7 +32,7 @@ Download files and run OpenglViewer.sln
 
 ![image](https://github.com/user-attachments/assets/00a6fa01-53a9-4d9e-a088-0ffd1c6aa84d)
 
-Select Project(Q1) and right-click and click "Set as Startup Projcect"
+Select Project(Q1 or Q2) and right-click and click "Set as Startup Projcect"
 
 ![image](https://github.com/user-attachments/assets/33ae5757-9c17-438e-8d94-8ddd6d7cddf7)
 
@@ -43,7 +48,14 @@ I don't know why, but if you failed then change target platform to Win32
 Result Picture:
 result picture included in root folder
 
-![image](https://github.com/user-attachments/assets/ba1299e5-dc4a-4772-8494-9457cb3a488d)
+Q1
+![image](https://github.com/user-attachments/assets/1b1f22e8-ccb4-40f5-85c0-cb4d955f65de)
+
+Q2
+![image](https://github.com/user-attachments/assets/6a3fb42e-152b-47d0-b6fc-9be05c945ddd)
+
+
+
 
 
 
